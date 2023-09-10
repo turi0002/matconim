@@ -1,0 +1,41 @@
+/* Navbar container */
+.navbar {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Navbar list */
+  .navbar-list {
+    list-style: none;
+    padding: 0;
+    height: 8vh;
+    display: flex;
+    margin: 0%; /* Make the list items horizontal */
+  }
+  
+  /* Navbar list items */
+  .navbar-item {
+    margin: 0 10px; 
+   
+  }
+  
+  /* Navbar links */
+  .navbar-item a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Style for hover effect (optional) */
+  .navbar-item a:hover {
+    text-decoration: underline;
+  }
+  body{
+    margin: 0;
+  }
+  form{
+    margin-left: 10vw;
+  }
+  a{
+    font-size: 3vh;
+  }
